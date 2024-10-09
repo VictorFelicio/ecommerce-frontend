@@ -1,14 +1,14 @@
 import Header from './Header';
 import Footer from './Footer';
 
-export interface PaginaProps {
+export interface PageProps {
     children: any;
     className?: string;
     hasHeader?: boolean;
     hasFooter?: boolean;
 }
 
-export default function Page(props: PaginaProps) {
+export default function Page(props: PageProps) {
     return (
         <div
             className="flex flex-col min-h-screen"
